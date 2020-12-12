@@ -26,7 +26,7 @@ Add `snowpack` commands to `package.json`:
 ```
 
 Enable Snowpack's built-in optimization pipeline in `snowpack.config.js`:
-```json
+```js
 ...
 module.exports = {
   ...
@@ -37,6 +37,7 @@ module.exports = {
       "target": 'es2018'
     }
   }
+  ...
 };
 ...
 ```
